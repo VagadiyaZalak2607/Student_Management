@@ -49,4 +49,4 @@ Visit http://127.0.0.1:8000/admin to access the admin dashboard.
 
 ---
 
-✅ Project prepared and verified to be migration-ready.
+

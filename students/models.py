@@ -5,7 +5,7 @@ class Student(models.Model):
     email = models.EmailField(unique=True)
     course = models.CharField(max_length=100)
     admission_date = models.DateField()
-    fees = models.DecimalField(max_digits=8, decimal_places=2)
+    fees = models.DecimalField(max_digits=8)
 
     def __str__(self):
         return self.name
